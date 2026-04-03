@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 커스텀 브루탈리즘 그림자 */
+.brutal-shadow {
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+}
+.brutal-shadow-sm {
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}
+.brutal-shadow-hover:hover {
+  box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+  transform: translate(4px, 4px);
+}
+
+/* 달력 그리드를 위한 커스텀 스크롤바 */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4f0;
+  border-left: 4px solid black;
+}
+::-webkit-scrollbar-thumb {
+  background: #f472b6; 
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+}
