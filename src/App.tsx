@@ -72,7 +72,6 @@ export default function App() {
                 <button className="bg-pink-400 text-black border-2 border-black px-4 py-2 font-black hover:bg-white transition-colors">이용약관</button>
                 <button className="bg-cyan-400 text-black border-2 border-black px-4 py-2 font-black hover:bg-white transition-colors">개인정보처리방침</button>
               </div>
-              <p className="text-gray-400 text-sm font-bold">본 사이트는 데모 목적으로 제작되었습니다.</p>
             </div>
           </div>
         </footer>
