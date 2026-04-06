@@ -63,8 +63,9 @@ export default function App() {
                 onClick={handleSecretClick}
               >
                 대한민국 No.1 서브컬처 행사 종합 플랫폼<br/>
-                © 2026 화무십일홍. All rights reserved.
+                © 2026 스마트링크. All rights reserved.
               </p>
+              <p className="text-gray-300 font-bold text-center md:text-left select-none cursor-default">광고 및 제휴 문의: 010-7746-6836</p>
             </div>
             
             <div className="flex flex-col items-center md:items-end gap-4">
